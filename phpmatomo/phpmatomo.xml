@@ -36,7 +36,7 @@
     </config>
 
     <updateservers>
-        <server type="extension" priority="1" name="plg_system_phpmatomo">https://github.com/yireo/plg_system_piwik/blob/master/plg_system_phpmatomo.xml</server>
+        <server type="extension" priority="1" name="plg_system_phpmatomo">https://raw.githubusercontent.com/sniggle/plg_system_piwik/master/plg_system_phpmatomo.xml</server>
     </updateservers>
 
 </extension>
