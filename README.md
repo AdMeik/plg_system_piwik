@@ -1,28 +1,27 @@
 # Yireo Matomo (Piwik) plugin for Joomla
 
-## Disclaimer - Contributors welcome - Yireo Piwik is now called "PhpMatomo"
-This project is no longer maintained by the team that initially created it.
-The plugin is open-source and **looking for contributors helping to maintain it**. Any issues will be picked up by the community. Feel free to use the sources as basis for other projects as well.
+## "Yireo - Piwik" is now called "PhpMatomo" - Contributors welcome
+This project is no longer maintained by the team that initially created it. But as it is open-source, we picked it up to let everyone using the existing "Yireo - Piwik" also enjoy the new developements. :smile:
+When the project went to Github the project structure needed some updates. To avoid conflicts in Joomla! with other piwik plugins, that might have the same name "piwik" and to follow the new name of Piwik called "Matomo" we took the opportunity to rename the plugin to "PhpMatomo" starting with version 1.1.
+The plugin is maintained by the community but always **looking for contributors helping to maintain it**. Any issues will be picked up by the community. 
 
-## Introduction & Benfits compared to other Matomo (Piwik) plugins
+## Introduction & Benfits compared to other Matomo (Piwik) plugins :thumbsup:
 This plugin allows you to integrate Matomo (previously called Piwik) in your Joomla site, while not using any client-side code (e.g. JavaScript). There are different benefits of this approach
 * the Matomo (Piwik) integration will not slow down the client side loading
 * additionally, it is fully compliant with EU cookie-regulations
 * the plugin does not require a cookie banner to ask for user permission
 * all tracking is done on the server side
 
-## Benefits compared to other Tracking plugins (like Google Analytics)
+## Benefits compared to other Tracking plugins (like Google Analytics) :thumbsup:
 * One main benefit is, that no hidden third party is involved. All data stays at a place under the control of the website maintainer.
 * See also: FAQ article on the official website: https://matomo.org/faq/new-to-piwik/faq_15/
 
-## Setup / Installation
+## Setup / Installation :wrench:
 * Install the plugin in the Extension Manager
 * Enable the plugin in the Plugin Manager
 * Configure your Matomo (Piwik) API in the plugin settings (see next chapter)
 
 ## Update from version 1.0.x to version 1.1.x
-When the project went to Github the project structure needed some updates. To avoid conflicts in Joomla! with other piwik plugins, that might have the same name "piwik" and to follow the new name of Piwik called "Matomo" we took the opportunity to rename the plugin to "PhpMatomo".
-
 ### Known issues - Please read before updating 
 As the new and the old plugin register the same functions, they cannot be activated at the same time. Otherwise Joomla! will not work anymore.
 Therefore the old "System - Piwik" plugin has to be deactivated before activating the "System - PhpMatomo (Piwik)" plugin
